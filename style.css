@@ -1,0 +1,58 @@
+:root {
+    --flat-gray: #A2AAAD;
+    --carolina-blue: #7BAFD4;
+    --navy-blue: #13294B;
+    --pitch-black: #000000;
+}
+body {
+    background-color: var(--flat-gray);
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+header {
+    width: 100%;
+    background-color: var(--carolina-blue);
+    position: fixed;
+    top: 0;
+}
+header h1.page-title {
+    color: var(--navy-blue)
+}
+.container {
+    display: flex;
+}
+.about-me{
+    flex: 1;
+    padding:20px;
+    border: 1px var(--pitch-black);
+    color: var(--navy-blue);
+    font-size: 100px:
+}
+.about-me-2 {
+    flex: 1;
+    padding:50px;
+    border: 1px var(--pitch-black);
+}
+main {
+    padding-top: 150px;
+}
+li {
+    display: inline;
+    text-align: left;
+}
+ul {
+    text-align: right;
+    color: black;
+}
+.about-me {
+    width: 200px;
+    height: 200px;
+}
+.work {
+    width: 200px;
+    height: 200px;
+}
+.contact-me {
+
+}
